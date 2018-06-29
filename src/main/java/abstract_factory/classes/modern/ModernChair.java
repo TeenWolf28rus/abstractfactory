@@ -1,6 +1,6 @@
-package clases.modern;
+package abstract_factory.classes.modern;
 
-import interfaces.Chair;
+import abstract_factory.interfaces.Chair;
 
 public class ModernChair implements Chair {
     @Override

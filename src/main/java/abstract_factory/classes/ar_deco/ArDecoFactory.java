@@ -1,9 +1,9 @@
-package clases.ar_deco;
+package abstract_factory.classes.ar_deco;
 
-import interfaces.Chair;
-import interfaces.FurnitureFactory;
-import interfaces.Sofa;
-import interfaces.Table;
+import abstract_factory.interfaces.Chair;
+import abstract_factory.interfaces.FurnitureFactory;
+import abstract_factory.interfaces.Sofa;
+import abstract_factory.interfaces.Table;
 
 public class ArDecoFactory implements FurnitureFactory {
     @Override

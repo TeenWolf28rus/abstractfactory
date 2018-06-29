@@ -1,6 +1,6 @@
-package clases.modern;
+package abstract_factory.classes.modern;
 
-import interfaces.Sofa;
+import abstract_factory.interfaces.Sofa;
 
 public class ModernSofa implements Sofa {
     @Override

@@ -1,6 +1,6 @@
-package clases.modern;
+package abstract_factory.classes.modern;
 
-import interfaces.Table;
+import abstract_factory.interfaces.Table;
 
 public class ModernTable implements Table {
     @Override

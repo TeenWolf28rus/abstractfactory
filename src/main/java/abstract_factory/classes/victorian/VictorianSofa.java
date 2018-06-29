@@ -1,6 +1,6 @@
-package clases.victorian;
+package abstract_factory.classes.victorian;
 
-import interfaces.Sofa;
+import abstract_factory.interfaces.Sofa;
 
 public class VictorianSofa implements Sofa {
     @Override

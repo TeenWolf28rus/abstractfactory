@@ -1,9 +1,9 @@
-package clases.victorian;
+package abstract_factory.classes.victorian;
 
-import interfaces.Chair;
-import interfaces.FurnitureFactory;
-import interfaces.Sofa;
-import interfaces.Table;
+import abstract_factory.interfaces.Chair;
+import abstract_factory.interfaces.FurnitureFactory;
+import abstract_factory.interfaces.Sofa;
+import abstract_factory.interfaces.Table;
 
 public class VictorianFactory implements FurnitureFactory {
     @Override

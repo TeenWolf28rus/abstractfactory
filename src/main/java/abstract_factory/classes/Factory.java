@@ -1,9 +1,9 @@
-package clases;
+package abstract_factory.classes;
 
-import interfaces.Chair;
-import interfaces.FurnitureFactory;
-import interfaces.Sofa;
-import interfaces.Table;
+import abstract_factory.interfaces.Chair;
+import abstract_factory.interfaces.FurnitureFactory;
+import abstract_factory.interfaces.Sofa;
+import abstract_factory.interfaces.Table;
 
 public class Factory {
     private FurnitureFactory factory;

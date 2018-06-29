@@ -1,6 +1,6 @@
-package clases.victorian;
+package abstract_factory.classes.victorian;
 
-import interfaces.Chair;
+import abstract_factory.interfaces.Chair;
 
 public class VictorianChair implements Chair
 {

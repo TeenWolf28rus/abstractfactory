@@ -1,14 +1,14 @@
-package clases;
+package abstract_factory.classes;
 
-import clases.ar_deco.ArDecoFactory;
-import clases.modern.ModernFactory;
-import clases.victorian.VictorianFactory;
-import interfaces.FurnitureFactory;
+import abstract_factory.classes.ar_deco.ArDecoFactory;
+import abstract_factory.classes.modern.ModernFactory;
+import abstract_factory.classes.victorian.VictorianFactory;
+import abstract_factory.interfaces.FurnitureFactory;
 
 import java.util.Scanner;
 
-public class Main {
-    public static void main(String args[]) {
+public class MainFactory {
+    public static void main(String[] args) {
         print("Введите один из стилей Ар-Деко, Модерн, Викторианский \n");
         String style = scan();
         print("Вы ввели " + style + " \n");
@@ -26,7 +26,7 @@ public class Main {
                 furnitureFactory = new VictorianFactory();
                 break;
             }
-            default:{
+            default: {
                 print("Нет такого варианта");
                 return;
             }

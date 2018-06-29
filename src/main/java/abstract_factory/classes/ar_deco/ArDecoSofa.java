@@ -1,6 +1,6 @@
-package clases.ar_deco;
+package abstract_factory.classes.ar_deco;
 
-import interfaces.Sofa;
+import abstract_factory.interfaces.Sofa;
 
 public class ArDecoSofa implements Sofa {
     @Override

@@ -1,6 +1,6 @@
-package clases.victorian;
+package abstract_factory.classes.victorian;
 
-import interfaces.Table;
+import abstract_factory.interfaces.Table;
 
 public class VictorianTable implements Table {
     @Override

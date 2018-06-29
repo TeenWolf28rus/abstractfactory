@@ -1,6 +1,6 @@
-package clases.ar_deco;
+package abstract_factory.classes.ar_deco;
 
-import interfaces.Table;
+import abstract_factory.interfaces.Table;
 
 public class ArDecoTable implements Table {
     @Override

@@ -1,4 +1,4 @@
-package interfaces;
+package abstract_factory.interfaces;
 
 public interface FurnitureFactory {
 

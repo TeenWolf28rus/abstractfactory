@@ -1,6 +1,6 @@
-package clases.ar_deco;
+package abstract_factory.classes.ar_deco;
 
-import interfaces.Chair;
+import abstract_factory.interfaces.Chair;
 
 public class ArDecoChair implements Chair {
     @Override
